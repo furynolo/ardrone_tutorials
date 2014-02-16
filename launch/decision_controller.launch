@@ -1,0 +1,4 @@
+<launch>
+    <!-- Launches the keyboard controller -->
+    <node name="decision_controller" pkg="ardrone_tutorials" type="decision_controller.py" required="true"/>
+</launch>
